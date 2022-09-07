@@ -11,15 +11,15 @@
 
 - 整合 [unocss-preset-weapp](https://github.com/MellowCo/unocss-preset-weapp) 做类名转换
 
-- 使用 [eslint](https://eslint.org) 与 [prettier](https://prettier.io) 做代码风格约束, 使用 [@antfu/eslint-config](https://github.com/antfu/eslint-config)作为基础配置，用户可根据需求自行修改
+- 使用 [eslint](https://eslint.org) 与 [prettier](https://prettier.io) 做代码风格约束, 使用 [@antfu/eslint-config](https://github.com/antfu/eslint-config) 作为基础配置，用户可根据需求自行修改
 
 ## 项目启动方式
 
 ### 一、下载项目 
 ```sh
-git clone git@github.com:DimplesY/uniapp-windicss-starter.git
+git clone git@github.com:DimplesY/uniapp-unocss-starter.git
 # or 使用项目作为模版
-npx degit git@github.com:DimplesY/uniapp-windicss-starter.git
+npx degit git@github.com:DimplesY/uniapp-unocss-starter.git
 ```
 
 ### 二、安装依赖
