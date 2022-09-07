@@ -1,3 +1,4 @@
 {
+  "root": true,
   "extends": ["@antfu", "prettier", ".eslintrc-auto-import.json"]
 }
