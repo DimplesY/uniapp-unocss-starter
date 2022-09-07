@@ -30,7 +30,7 @@ npm install
 ```
 ### 三、启动项目
 
-- 微信小程序
+- 如：微信小程序
 ```sh
 yarn dev:mp-weixin
 # or
