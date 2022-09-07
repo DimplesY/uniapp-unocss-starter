@@ -1,4 +1,4 @@
-# uniapp + windicss starter
+# uniapp + typescript + unocss starter
 
 - 整合 unocss
 - 整合 autoimport 自动导入插件
