@@ -26,6 +26,8 @@ npx degit git@github.com:DimplesY/uniapp-unocss-starter.git
 
 ### 二、安装依赖
 
+tips: 使用 vscode 开发时，安装项目推荐的插件能够有更好的开发体验
+
 ```sh
 yarn
 # or
@@ -34,7 +36,7 @@ npm install
 
 ### 三、启动项目
 
-- 如：微信小程序
+- 如：微信小程序，可以使用下面命令启动，其他平台可查看 package.json 中的 scripts
 
 ```sh
 yarn dev:mp-weixin
