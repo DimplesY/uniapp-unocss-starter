@@ -1,6 +1,6 @@
 {
   "name": "uniapp-unocss-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev:app": "uni -p app",
     "dev:custom": "uni -p",
@@ -32,7 +32,8 @@
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier . --write --ignore-path .gitignore"
+    "format": "prettier . --write --ignore-path .gitignore",
+    "release": "bumpp"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3070320230222002",
@@ -59,6 +60,7 @@
     "@dcloudio/uni-stacktracey": "3.0.0-3070320230222002",
     "@dcloudio/vite-plugin-uni": "3.0.0-3070320230222002",
     "@types/node": "^18.7.15",
+    "bumpp": "^9.0.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
