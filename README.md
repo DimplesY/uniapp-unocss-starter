@@ -1,5 +1,7 @@
 # uniapp + typescript + unocss starter
 
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
+
 ## 项目说明
 
 > uniapp + vue3 + typescript + unocss 基础模版
