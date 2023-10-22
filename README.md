@@ -10,8 +10,6 @@
 
 - 整合 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) 自动导入 API
 
-- 整合 [vite-plugin-vue-setup-extend](https://github.com/vbenjs/vite-plugin-vue-setup-extend)
-
 - 整合 [unocss-preset-weapp](https://github.com/MellowCo/unocss-preset-weapp) 做类名转换
 
 - 使用 [eslint](https://eslint.org) 与 [prettier](https://prettier.io) 做代码风格约束, 使用 [@antfu/eslint-config](https://github.com/antfu/eslint-config) 作为基础配置，用户可根据需求自行修改
