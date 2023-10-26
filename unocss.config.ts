@@ -7,13 +7,13 @@ const { transformerAttributify } = extractorAttributify()
 export default defineConfig({
   presets: [
     // https://github.com/MellowCo/unocss-preset-weapp
-    presetWeapp(),
+    presetWeapp() as any,
   ],
   transformers: [
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerAttributify
-    transformerAttributify(),
+    transformerAttributify() as any,
 
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerClass
-    transformerClass(),
+    transformerClass() as any,
   ],
 })
