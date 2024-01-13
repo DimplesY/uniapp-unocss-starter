@@ -1,19 +1,22 @@
-import { defineConfig } from 'unocss'
 import presetWeapp from 'unocss-preset-weapp'
 import { extractorAttributify, transformerClass } from 'unocss-preset-weapp/transformer'
 
-const { transformerAttributify } = extractorAttributify()
+const { presetWeappAttributify, transformerAttributify } = extractorAttributify()
 
-export default defineConfig({
+export default {
   presets: [
     // https://github.com/MellowCo/unocss-preset-weapp
-    presetWeapp() as any,
+    presetWeapp(),
+    // attributify autocomplete
+    presetWeappAttributify(),
+  ],
+  shortcuts: [
   ],
   transformers: [
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerAttributify
-    transformerAttributify() as any,
+    transformerAttributify(),
 
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerClass
-    transformerClass() as any,
-  ],
-})
+    transformerClass(),
+  ]
+}
