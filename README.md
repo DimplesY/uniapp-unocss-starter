@@ -12,7 +12,7 @@
 
 - 整合 [unocss-preset-weapp](https://github.com/MellowCo/unocss-preset-weapp) 做类名转换
 
-- 使用 [eslint](https://eslint.org) 与 [prettier](https://prettier.io) 做代码风格约束, 使用 [@antfu/eslint-config](https://github.com/antfu/eslint-config) 作为基础配置，用户可根据需求自行修改
+- 使用 [@antfu/eslint-config](https://github.com/antfu/eslint-config) 作为基础配置，用户可根据需求自行修改
 
 ## 项目启动方式
 
