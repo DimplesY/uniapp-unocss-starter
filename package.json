@@ -32,7 +32,8 @@
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp"
+    "release": "bumpp",
+    "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3090920231225001",
