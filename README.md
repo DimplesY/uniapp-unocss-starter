@@ -25,13 +25,13 @@ git clone git@github.com:DimplesY/uniapp-unocss-starter.git
 
 # or 使用项目作为模版
 
-npx degit git@github.com:DimplesY/uniapp-unocss-starter.git
+npx degit git@github.com:DimplesY/uniapp-unocss-starter.git my-project
 ```
 
 前往项目目录
 
 ```bash
-  cd my-project
+cd my-project
 ```
 
 安装依赖
