@@ -13,10 +13,10 @@ export default {
   shortcuts: [
   ],
   transformers: [
-    // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerAttributify
+    // https://github.com/MellowCo/unocss-preset-weapp/tree/mainrn/src/transformer/transformerAttributify
     transformerAttributify(),
 
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerClass
     transformerClass(),
-  ]
+  ],
 }
